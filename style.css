@@ -1,3 +1,15 @@
+@charset "UTF-8";
+
+/*todas as demais midias*/
+
+/*pesquisar typical device breakpoint
+Pequenas telas: até 390
+Celular: 600px até 768px
+Tablet: 769 até 992px
+Descktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
 body{
     background-color: rgb(54, 49, 104);
     font:normal 15pt arial;
@@ -41,3 +53,31 @@ footer{
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.735);
 }
 
+@media screen and (min-width: 390px) and (max-width:992px){
+
+    header{
+        color: white;
+        text-align: center;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.735);
+    }
+
+    section{
+        background: rgb(200, 201, 231);
+        border-radius: 10px;
+        padding: 15px;
+        width: 300px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.578);
+}
+
+    .p1{
+        text-align: center;
+    }
+
+    input#botao{
+        width: 150px;
+        height: 30px;
+        margin-left: 73px;
+        font-size: 15px ;
+    }
+}
